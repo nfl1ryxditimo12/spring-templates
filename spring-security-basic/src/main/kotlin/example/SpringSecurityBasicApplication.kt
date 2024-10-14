@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringSecurityWorksServletApplication
+class SpringSecurityBasicApplication
 
 fun main(args: Array<String>) {
-    runApplication<SpringSecurityWorksServletApplication>(*args)
+    runApplication<SpringSecurityBasicApplication>(*args)
 }
