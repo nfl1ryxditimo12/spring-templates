@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController("/")
 class ServletController {
-    @GetMapping("/hello")
-    fun hello(): String = "hello world"
+    @GetMapping("/admin")
+    fun admin(): String = "Hello Admin!"
 
-    @GetMapping("/authorized")
-    fun authorized(): String = "Authorized!"
+    @GetMapping("/user")
+    fun user(): String = "Hello User!"
 }
